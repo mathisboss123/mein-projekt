@@ -51,4 +51,21 @@
 #    print(x)
 #    x = x + 1    
 
-print("Hallo GitHub")
+
+
+
+
+
+
+
+#Week 2
+
+x= 100
+var= "mathisboss"
+print(x*var)
+
+if x == 100:
+    print("mathisboss is written 100 times")
+else: 
+    print("mathisboss is not written 100 times")
+
