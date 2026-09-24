@@ -25,4 +25,12 @@
 #first = input("first: ")
 #second = input("second: ")
 #sum = float(first) + float(second)
-#print("Sum: " + str(sum))         
+#print("Sum: " + str(sum))   
+# 
+#print(10 + 3)   # 13
+#print(10 - 3)   # 7
+#print(10 * 3)   # 30
+#print(10 / 3)   # 3.333...
+#print(10 // 3)  # 3   (ganzzahlige Division)
+#print(10 % 3)   # 1   (Rest)
+#print(2 ** 3)   # 8   (hoch)      
