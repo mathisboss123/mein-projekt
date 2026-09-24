@@ -33,4 +33,20 @@
 #print(10 / 3)   # 3.333...
 #print(10 // 3)  # 3   (ganzzahlige Division)
 #print(10 % 3)   # 1   (Rest)
-#print(2 ** 3)   # 8   (hoch)      
+#print(2 ** 3)   # 8   (hoch)
+# 
+#alter = 17
+#if alter >= 18:
+#    print("volljährig")
+#elif alter >= 16:
+#    print("fast")
+#else:
+#    print("minderjährig")  
+
+#for i in range(5):        # 0,1,2,3,4
+#    print(i)
+
+#x = 0
+#while x < 3:               # solange x kleiner 3
+#    print(x)
+#    x = x + 1    
