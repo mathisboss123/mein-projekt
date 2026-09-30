@@ -69,3 +69,34 @@ if x == 100:
 else: 
     print("mathisboss is not written 100 times")
 
+# print("Hello, World!")
+# x = 1
+# student_name = "Mathis"
+# print(student_name)
+# rating = 4.99
+# is_raining = True
+# print(len(student_name))
+# print(student_name[0])
+# course = "Python for Beginners"
+# print(course.upper())
+# temperature = 35
+# if temperature > 30:
+#    print("It's a hot day")
+# if 10 == "10":
+#    print("a")
+# elif "bag" > "apple" and "bag" > "cat":
+#    print("b")
+# else:
+#    print("c")
+# succeful = True
+# for number in range(3):
+# if succeful:
+# print("Attempt")
+# break
+
+
+# number = 100000000000000000000000000
+# while number > 0:
+# print(number)
+# number //= 2
+
