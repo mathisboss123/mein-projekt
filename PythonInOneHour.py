@@ -100,3 +100,38 @@ else:
 # print(number)
 # number //= 2
 
+import time
+from eth_hash.auto import keccak
+print("0x" + keccak("".encode("utf-8")).hex())
+s1 = "The Senate shall be composed of two Senators from each State, chosen by the Legislature thereof, for six Years; and each Senator shall have one Vote."
+s2 = "The Senate shall be composed of two Senators from each State, chosen by the Legislature thereof, for six Years, and each Senator shall have one Vote."
+print("0x" + keccak(s1.encode("utf-8")).hex())
+print("0x" + keccak(s2.encode("utf-8")).hex())
+i = 0
+while True:
+    h = keccak(str(i).encode("utf-8")).hex()
+    if h.startswith("0"):
+        print("String:", i, "Hash: 0x" + h)
+        break
+    i += 1
+
+
+def finde(nullen):
+    ziel = "0" * nullen
+    start = time.time()
+    i = 0
+    while True:
+        h = keccak(str(i).encode("utf-8")).hex()
+        if h.startswith(ziel):
+            dauer = time.time() - start
+            print(
+                f"{nullen} Nullen: String = {i}, Hash = 0x{h}, Versuche = {i+1}, Zeit = {dauer:.2f} s")
+            return
+        i += 1
+
+
+finde(5)   # a)
+finde(6)   # b)
+finde(7)   # b) 
+
+
