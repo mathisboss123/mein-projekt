@@ -1,0 +1,123 @@
+print("Hello, World!")
+
+# sekunden = 7384
+# minuten_total = sekunden//60
+# rest_sekunden = sekunden % 60
+# stunden = minuten_total//60
+# minuten = minuten_total % 60
+# print(f"{sekunden} Sekunden = {stunden} Stunden, {minuten} Minuten, {rest_sekunden} Sekunden")
+
+# Temperaturincelsius = 21
+# Temperaturinfahrenheit = (Temperaturincelsius * 9/5) + 32
+# print(f"{Temperaturincelsius}°C = {Temperaturinfahrenheit}°F")
+# celsius = float(input("Temperatur in °C: "))
+# fahrenheit = (celsius * 9/5) + 32
+# print(f"{celsius:.1f} °C = {fahrenheit:.1f} °F")
+
+# wenn man alles mit # haben will: Cmd + /
+
+# name = "   anna MüLLER"
+# name = name.strip().title()
+# buchstaben = len(name.replace(" ", ""))
+# teile = name.split()
+# initialen = f"{teile[0][0]}.{teile[1][0]}"
+# print(f"Name: {name}, Buchstaben: {buchstaben}, Initialen: {initialen}")
+
+# s = "Programmieren"
+# print(s[3])
+# print(s[-3:])
+# print(s[:7])
+# print(s[::2])
+# print(s[1:10:3])
+
+# zahl = int(input("Zahl: "))
+
+# # Teil 1: positiv, negativ oder null
+# if zahl > 0:
+#     print(f"{zahl} ist positiv")
+# elif zahl < 0:
+#     print(f"{zahl} ist negativ")
+# else:
+#     print(f"{zahl} ist null")
+
+# # Teil 2: gerade oder ungerade
+# if zahl % 2 == 0:
+#     print(f"{zahl} ist gerade")
+# else:
+#     print(f"{zahl} ist ungerade")
+
+# punkte = int(input("Punkte (0-100): "))
+
+# if punkte < 0 or punkte > 100:
+#     print("Ungültige Eingabe")
+# elif punkte >= 90:
+#     print("Note 6")
+# elif punkte >= 80:
+#     print("Note 5")
+# elif punkte >= 65:
+#     print("Note 4")
+# elif punkte >= 50:
+#     print("Note 3")
+# else:
+#     print("Note 2")
+
+# for i in range(5):
+#     print(i)        # 0, 1, 2, 3, 4
+# summe = 0
+# for i in range(1, 6):
+#     summe = summe + i
+# print(summe)        # 15  (1+2+3+4+5)
+
+# zahl = int(input("Zahl: "))
+# for i in range(1, 11):
+#     print(f"{zahl} x {i} = {zahl * i}")
+
+# zahl = 1
+# while zahl < 100:
+#   zahl = zahl * 2
+# print(zahl)    # 128
+
+# erspart = 0
+# monate = 0
+# while erspart < 5000:
+#     erspart = erspart + 250
+#     monate = monate + 1
+# print(f"Nach {monate} Monaten hat man {erspart} Euro gespart.")
+
+# for i in range(1, 31):
+#     if i % 3 == 0 and i % 5 == 0:
+#         print("FizzBuzz")
+#     elif i % 3 == 0:
+#         print("Fizz")
+#     elif i % 5 == 0:
+#         print("Buzz")
+#     else:
+#         print(i)
+# noten = [5.5, 4.0, 6.0, 3.5, 4.5, 5.0, 3.0, 5.5]
+
+# anzahl = len(noten)
+# durchschnitt = sum(noten) / len(noten)
+# beste = max(noten)
+# schlechteste = min(noten)
+
+# ungenuegend = 0
+# for note in noten:
+#     if note < 4:
+#         ungenuegend += 1
+
+# print(f"Anzahl Noten: {anzahl}")
+# print(f"Durchschnitt: {durchschnitt:.2f}")
+# print(f"Beste Note: {beste}")
+# print(f"Schlechteste Note: {schlechteste}")
+# print(f"Ungenügende Noten (unter 4): {ungenuegend}")
+
+# preise = {"Kaffee": 4.50, "Gipfeli": 2.20, "Wasser": 3.00, "Sandwich": 8.90}
+# bestellung = {"Kaffee": 2, "Gipfeli": 3, "Sandwich": 1}
+
+# total = 0
+# for produkt, anzahl in bestellung.items():
+#     betrag = preise[produkt] * anzahl
+#     total += betrag
+#     print(f"{anzahl} x {produkt:<10} {betrag:>6.2f} CHF")
+
+# print(f"{'Total:':<14} {total:>6.2f} CHF")
